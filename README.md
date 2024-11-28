@@ -42,8 +42,6 @@ The project consists of two main Jupyter Notebooks:
   - NumPy
   - Pandas
   - Scikit-learn
-  - Matplotlib
-  - Seaborn
 
 ## How It Works
 1. **Data Preprocessing**:
