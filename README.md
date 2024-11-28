@@ -72,9 +72,6 @@ We welcome contributions! Please follow these steps:
 3. Commit your changes and push to your branch.
 4. Submit a pull request with a detailed description.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
 ## Acknowledgments
 - Developers and contributors who have built the core framework.
 - Open-source libraries and tools that made this implementation possible.
