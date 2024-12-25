@@ -53,22 +53,22 @@ The project consists of two main Jupyter Notebooks:
    - Models are evaluated using metrics such as accuracy, precision, recall, and F1-score for classification.
    - For anomaly detection, techniques like ROC-AUC and confusion matrices are employed.
 ## How It Works
-1.Document Upload:
-Upload input Excel files and a folder containing document images.
-2.Document Classification:
-Uses YOLO to classify documents as “Aadhar” or “Non-Aadhar.”
-3.Text Extraction:
-Detects and extracts critical fields from “Aadhar” documents.
-4.Data Matching:
-Matches extracted fields with input Excel records and calculates similarity scores.
-5.Result Export:
-Outputs results into an Excel file, including:
-Document classification.
-Extracted Name, Address, UID.
-Matching scores for Name, Address, and UID.
+1. **Document Upload**:
+   -Upload input Excel files and a folder containing document images.
+2. **Document Classification**:
+   -Uses YOLO to classify documents as “Aadhar” or “Non-Aadhar.”
+3. **Text Extraction**:
+   -Detects and extracts critical fields from “Aadhar” documents.
+4.**Data Matching**:
+   -Matches extracted fields with input Excel records and calculates similarity scores.
+5. **Result Export**:
+   -Outputs results into an Excel file, including:
+   -Document classification.
+   -Extracted Name, Address, UID.
+   -Matching scores for Name, Address, and UID.
 
 ## Outputs
-Processed Excel File:
+**Processed Excel File**:
 Columns include:
 SrNo
 Document Type (e.g., “Aadhar”, “Non-Aadhar”)
@@ -81,14 +81,14 @@ Streamlit Dashboard:
 Interactive display of results during processing.
 
 ## Example Workflow
-1.Input:
+1.**Input**:
 An Excel file containing records to be matched.
 A folder containing document images.
-2.Processing:
+2.**Processing**:
 Classification of documents.
 Text extraction from fields like Name, Address, and UID.
 Matching extracted data with input records.
-3.Output:
+3.**Output**:
 Exported Excel file with results.
 
 
