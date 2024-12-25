@@ -86,8 +86,6 @@ The exported Excel file contains the following columns:
 ### Streamlit Dashboard:
 - An interactive dashboard displays processing results in real-time.  
 
----
-
 ## Example Workflow
 
 1. **Input**:  
@@ -104,15 +102,6 @@ The exported Excel file contains the following columns:
      - Document classification results.  
      - Extracted Name, Address, UID.  
      - Matching scores for each record.  
-
----
-"""
-
-# Write the content to README.md
-with open("README.md", "w") as file:
-    file.write(readme_content)
-
-print("README.md has been created successfully!")
 
 ## Outputs
 - Classification results with predictions and probability scores.
