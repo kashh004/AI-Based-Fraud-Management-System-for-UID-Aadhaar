@@ -53,44 +53,66 @@ The project consists of two main Jupyter Notebooks:
    - Models are evaluated using metrics such as accuracy, precision, recall, and F1-score for classification.
    - For anomaly detection, techniques like ROC-AUC and confusion matrices are employed.
 ## How It Works
-1. **Document Upload**:
-   -Upload input Excel files and a folder containing document images.
-2. **Document Classification**:
-   -Uses YOLO to classify documents as “Aadhar” or “Non-Aadhar.”
-3. **Text Extraction**:
-   -Detects and extracts critical fields from “Aadhar” documents.
-4.**Data Matching**:
-   -Matches extracted fields with input Excel records and calculates similarity scores.
-5. **Result Export**:
-   -Outputs results into an Excel file, including:
-   -Document classification.
-   -Extracted Name, Address, UID.
-   -Matching scores for Name, Address, and UID.
+1. **Document Upload**:  
+   - Upload input Excel files and a folder containing document images.
+   
+2. **Document Classification**:  
+   - Uses YOLO to classify documents as **“Aadhar”** or **“Non-Aadhar.”**
+   
+3. **Text Extraction**:  
+   - Detects and extracts critical fields from **“Aadhar”** documents.
+   
+4. **Data Matching**:  
+   - Matches extracted fields with input Excel records and calculates similarity scores.
+   
+5. **Result Export**:  
+   - Outputs results into an Excel file, including:  
+     - Document classification.  
+     - Extracted Name, Address, UID.  
+     - Matching scores for Name, Address, and UID.  
 
 ## Outputs
-**Processed Excel File**:
--Columns include:
--SrNo
--Document Type (e.g., “Aadhar”, “Non-Aadhar”)
--Extracted Name
--Extracted Address
--Extracted UID
--Name Match Score
--Overall Match Score
-**Streamlit Dashboard**:
--Interactive display of results during processing.
+
+### Processed Excel File:
+The exported Excel file contains the following columns:
+- **SrNo**  
+- **Document Type** (e.g., "Aadhar", "Non-Aadhar")  
+- **Extracted Name**  
+- **Extracted Address**  
+- **Extracted UID**  
+- **Name Match Score**  
+- **Overall Match Score**  
+
+### Streamlit Dashboard:
+- An interactive dashboard displays processing results in real-time.  
+
+---
 
 ## Example Workflow
-1.**Input**:
--An Excel file containing records to be matched.
--A folder containing document images.
-2.**Processing**:
--Classification of documents.
--Text extraction from fields like Name, Address, and UID.
--Matching extracted data with input records.
-3.**Output**:
--Exported Excel file with results.
 
+1. **Input**:  
+   - An Excel file containing records to be matched.  
+   - A folder containing document images.  
+
+2. **Processing**:  
+   - Classifies documents into categories such as "Aadhar" or "Non-Aadhar."  
+   - Extracts text from critical fields like Name, Address, and UID.  
+   - Matches extracted data with the records provided in the Excel file.  
+
+3. **Output**:  
+   - An exported Excel file containing:  
+     - Document classification results.  
+     - Extracted Name, Address, UID.  
+     - Matching scores for each record.  
+
+---
+"""
+
+# Write the content to README.md
+with open("README.md", "w") as file:
+    file.write(readme_content)
+
+print("README.md has been created successfully!")
 
 ## Outputs
 - Classification results with predictions and probability scores.
