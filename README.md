@@ -69,27 +69,27 @@ The project consists of two main Jupyter Notebooks:
 
 ## Outputs
 **Processed Excel File**:
-Columns include:
-SrNo
-Document Type (e.g., “Aadhar”, “Non-Aadhar”)
-Extracted Name
-Extracted Address
-Extracted UID
-Name Match Score
-Overall Match Score
-Streamlit Dashboard:
-Interactive display of results during processing.
+-Columns include:
+-SrNo
+-Document Type (e.g., “Aadhar”, “Non-Aadhar”)
+-Extracted Name
+-Extracted Address
+-Extracted UID
+-Name Match Score
+-Overall Match Score
+**Streamlit Dashboard**:
+-Interactive display of results during processing.
 
 ## Example Workflow
 1.**Input**:
-An Excel file containing records to be matched.
-A folder containing document images.
+-An Excel file containing records to be matched.
+-A folder containing document images.
 2.**Processing**:
-Classification of documents.
-Text extraction from fields like Name, Address, and UID.
-Matching extracted data with input records.
+-Classification of documents.
+-Text extraction from fields like Name, Address, and UID.
+-Matching extracted data with input records.
 3.**Output**:
-Exported Excel file with results.
+-Exported Excel file with results.
 
 
 ## Outputs
