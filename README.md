@@ -103,10 +103,6 @@ The exported Excel file contains the following columns:
      - Extracted Name, Address, UID.  
      - Matching scores for each record.  
 
-## Outputs
-- Classification results with predictions and probability scores.
-- Detection results highlighting flagged anomalies in the dataset.
-- Visualization of data trends and fraud patterns.
 
 ## Usage
 - Load your dataset into the provided format and execute the notebooks.
