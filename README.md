@@ -43,15 +43,6 @@ The project consists of two main Jupyter Notebooks:
   - Pandas
   - Scikit-learn
 
-## Working
-1. **Data Preprocessing**:
-   - Handles missing values, data normalization, and feature extraction.
-2. **Model Training**:
-   - For the classification notebook, supervised learning algorithms like Random Forest, Logistic Regression, or XGBoost are used.
-   - For the detection notebook, unsupervised algorithms like Isolation Forest or DBSCAN are implemented.
-3. **Evaluation**:
-   - Models are evaluated using metrics such as accuracy, precision, recall, and F1-score for classification.
-   - For anomaly detection, techniques like ROC-AUC and confusion matrices are employed.
 ## How It Works
 1. **Document Upload**:  
    - Upload input Excel files and a folder containing document images.
